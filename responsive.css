@@ -1,0 +1,93 @@
+@media screen and (max-width:900px){
+.about-login {
+    justify-content: center;
+    
+}
+
+
+}
+@media screen and (max-width:800px){
+    .movies::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+nav {
+    gap:1px;
+}
+
+.heading-para {
+    padding: 0px 20px;
+}
+.heading-logo {
+    height: 160px;
+}
+
+
+/*responsive header*/
+.sidebaropenlabel {
+    height: 25px;
+    width: 30px;
+    display: block;
+}
+div[class^= "spinner"] {
+    display: block;
+    height: 4px;
+    background-color: #ffbf00;
+    transition : all .5s;
+   
+}
+.spinner.bottom, .spinner.mid {
+    margin-top:6px;
+}
+#sidebaropen:checked ~ .sidebaropenlabel > .spinner.mid {
+    opacity: 0;
+    transition : all .5s;
+}
+#sidebaropen:checked ~ .sidebaropenlabel > .spinner.top {
+    transform: rotatez(135deg);
+    margin-top:13px;
+    transition : all .5s;
+}
+#sidebaropen:checked ~ .sidebaropenlabel > .spinner.bottom {
+    transform: rotatez(-135deg);
+    margin-top: -13px;
+    transition : all .5s;
+}
+#sidebaropen {
+    position: absolute;
+    left: -999px;
+    
+}
+.left-head {
+    position: absolute;
+    top: 60px;
+    left: -300px;
+    transition: all .5s;
+    background-color: #000000cc;
+    background-size: 300%;
+    border-radius: 0px 0px 15px 0px;
+    border: 2px solid #ffbf00;
+}
+.left-head ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    
+
+}
+.left-head ul li {
+    padding : 10px;
+}
+#sidebaropen:checked ~ .left-head {
+    left: 0px;
+    transition : all .5s;
+}
+}
+
+
+
