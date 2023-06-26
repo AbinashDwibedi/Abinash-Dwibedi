@@ -14,7 +14,8 @@
 nav {
     gap:1px;
 }
-
+.projects::-webkit-scrollbar{
+    display:None;}
 .heading-para {
     padding: 0px 20px;
 }
