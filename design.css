@@ -184,7 +184,7 @@ input:focus {
     border: 1px solid white;
     margin-top: 2px;
     border-top-right-radius:20px;
-    border-bottom-right:20px;
+    border-bottom-right-radius:20px;
     transition: background .4s;
     background-color: #ffbf00;
 }
