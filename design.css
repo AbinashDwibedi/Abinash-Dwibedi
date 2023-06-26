@@ -202,7 +202,6 @@ input:focus {
     background-size: cover;
     padding: 34px;
     text-align: center;
-    position: relative;
     background-blend-mode: darken;
     background-color: #00000078;
     display: flex;
