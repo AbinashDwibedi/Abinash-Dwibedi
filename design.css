@@ -108,7 +108,7 @@ a[class="top-link"]:hover {
     cursor: pointer;
 }
 .profile-logo {
-    height: 44px;
+    height: 40px;
     margin-left: 12px;
     background-color: white;
     border-radius: 25px;
@@ -163,14 +163,14 @@ a[class="top-link"]:hover {
 
 input[placeholder="Enter here to search"] {
     height: 34px;
-    max-width: 190px;
+    max-width: 20d0px;
     padding-left: 12px;
     color: #ffbf00;
     border: none;
     font-size: 15px;
     transition: all .5s;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 input:focus {
@@ -183,7 +183,8 @@ input:focus {
     width: 34px;
     border: 1px solid white;
     margin-top: 2px;
-    border-top-right-radius: 5px;
+    border-top-right-radius:20px;
+    border-bottom-right:20px;
     transition: background .4s;
     background-color: #ffbf00;
 }
@@ -328,7 +329,7 @@ input:focus {
 .project {
     border: 2px solid #a17800;
     min-height: 270px;
-    width: 180px;
+    width: 200px;
     background-color: rgb(0, 0, 0);
     margin: 10px;
     border-radius: 23px;
