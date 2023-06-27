@@ -214,6 +214,7 @@ input:focus {
 .heading-logo {
     height: 170px;
     border-radius: 100%;
+    z-index:2;
 }
 .img-back {
     height: 170px;
