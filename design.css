@@ -212,12 +212,34 @@ input:focus {
 }
 
 .heading-logo {
-    /* margin-top: 120px; */
     height: 170px;
     border-radius: 100%;
-    /* clip-path: circle(37%); */
-    margin-bottom: 20px;
 }
+.img-back {
+    height: 170px;
+    width: 170px;
+    background-color: transparent;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;margin-bottom: 20px;
+    position: relative;
+    
+}
+@keyframes img-back {
+    from {transform: rotatez(0deg);}
+    to {transform:rotatez(180deg) ;  }
+}
+.img-back::before {
+    position: absolute;
+    content: '';
+    height: 178px;
+    width: 178px;
+    background-image: conic-gradient(transparent 0deg, transparent 90deg, #ffbf00 90deg , #ffbf00 180deg, transparent 180deg , transparent 270deg , #ffbf00 270deg , #ffbf00 360deg);
+    inset:-4px;animation:img-back 2s linear .1s infinite;
+    border-radius: 100%;
+}
+
 .heading-para {
     /* margin-top: 32px; */
     padding: 0px 70px;
